@@ -1,0 +1,61 @@
+{
+    "placesPhotos" : [
+        {   	
+            "id": 0,
+            "name": "Cancún",
+            "image": "https://thumbnails.trvl-media.com/a7KoiMrQIIgWJSL95yRSjyoUKOA=/360x224/smart/filters:no_upscale():quality(80)/a.travel-assets.com/findyours-php/viewfinder/images/res70/331000/331445-Quintana-Roo.jpg"
+        },
+        {   	
+            "id": 1,
+            "name": "Machu Pichu",
+            "image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/6AFE/production/_102809372_machu.jpg"
+        },
+        {   	
+            "id": 2,
+            "name": "París",
+            "image": "https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/05/16082126/Torre-Eiffel-aniversario-1920.jpg"
+        },
+        {   	
+            "id": 3,
+            "name": "Roma",
+            "image": "https://www.viajaraitalia.com/wp-content/uploads/2012/05/Coliseo-de-Roma-abril-2007-1024x601.jpg"
+        },
+        {   	
+            "id": 4,
+            "name": "Taj Mahal",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Taj_Mahal_N-UP-A28-a.jpg/271px-Taj_Mahal_N-UP-A28-a.jpg"
+        },
+        {   	
+            "id": 5,
+            "name": "Gran Muralla China",
+            "image": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2017/10/263701-origenes-curiosidades-gran-muralla-china.jpg?itok=vTty0IhV"
+        },
+        {   	
+            "id": 6,
+            "name": "Camboya",
+            "image": "https://www.mochilerosviajeros.com/wp-content/uploads/2020/05/ANGKOR-WAT-CAMBOYA.jpg"
+        },
+        {   	
+            "id": 7,
+            "name": "Museo de Lourve",
+            "image": "https://tecnologiaindustrialdotnet.files.wordpress.com/2019/07/museo-del-louvre.jpg"
+        },
+        {   	
+            "id": 8,
+            "name": "Basílica de San Pedro",
+            "image": "https://javitour.com/wp-content/uploads/2017/07/Bas%C3%ADlica-de-San-Pedro-1_opt-1200x900.jpg"
+        },
+        {   	
+            "id": 9,
+            "name": "Burj Kalifa",
+            "image": "https://www.lavanguardia.com/r/GODO/LV/p7/WebSite/2020/01/17/Recortada/img_mbigas_20200117-142556_imagenes_lv_terceros_burj_khalifa_2-kH4D-U472930236924JPD-992x558@LaVanguardia-Web.jpg"
+        },
+        {   	
+            "id": 10,
+            "name": "Estatua de la libertad",
+            "image": "https://www.turismonuevayork.com/wp-content/uploads/2009/07/3a-1024x762.jpg"
+        }
+
+    ]
+
+}
