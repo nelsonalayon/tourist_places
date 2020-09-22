@@ -12,6 +12,7 @@ justify-content:space-around;
 align-items: center;
 width:100vw;
 background: rgba(0, 0, 0, .5);
+flex-wrap:wrap;
 `
 
 export const LinkText = styled.h3`
