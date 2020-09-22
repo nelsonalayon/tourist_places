@@ -4,7 +4,7 @@ import React from "react";
 import { Template } from "./components/template/template";
 
 import  Card  from "./components/card/card";
-import { CardList } from "./components/cardList/Cardlist";
+import  CardList from "./components/cardList/Cardlist";
 
 
 import { GlobalStyle } from "./GlobalStyles";
@@ -19,7 +19,7 @@ function App() {
         <Switch>
           <div>
              <Route exact path="/" component={Card} />
-          <Route exact path="/saved" component={CardList} />
+            <Route exact path="/saved" component={CardList} />
           </div>
          
         </Switch>

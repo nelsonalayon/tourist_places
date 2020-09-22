@@ -19,3 +19,14 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 `
+
+export const BeautifullButton = styled.button`
+
+padding: 20px 50px; 
+font-size:30px;
+border-radius: 15px;
+background-color: #E6C229;
+font-weight:bold;
+color: #6f1a07;
+
+`

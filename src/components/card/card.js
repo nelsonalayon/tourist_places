@@ -1,9 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
 import Places from "../../places.json";
-import { PhotoContainer, Buttons } from "./styles";
+import { PhotoContainer, Buttons, BeautifullButton } from "./styles";
 import { connect } from "react-redux";
-import { Button } from "../button/button";
 import * as saveActions from "../../actions/saveActions";
 
 
@@ -17,7 +16,7 @@ const Card = (props) => {
   const arrayLength = props.places[0].length
 
   const handleSaveClick = (e) => {
-    props.SavePlace()
+    props.SavePlace(count)
   };
 
   const handleNextClick = (e) => {
@@ -42,12 +41,10 @@ const Card = (props) => {
         <h3>{props.places[0][count].name}</h3>
         <img src={props.places[0][count].image} alt="foto" width="100%" />
       </PhotoContainer>
-      <Buttons>
-        <Button name="save" />
-        <Button name="next" />
+      <Buttons>       
 
-        <button onClick={handleSaveClick}>save</button>
-        <button onClick = {handleNextClick} >next</button>
+        <BeautifullButton onClick={handleSaveClick}>save</BeautifullButton>
+        <BeautifullButton onClick = {handleNextClick} >next</BeautifullButton>
         
       </Buttons>
     </div>

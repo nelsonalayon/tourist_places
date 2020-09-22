@@ -7,10 +7,15 @@ const INITIAL_STATE = {
     placesSaved: []
 }
 
+
+
 export default ( state = INITIAL_STATE, action ) => {
     switch (action.type) {
         case 'bring_places':
             return { ...state, placesSaved: action.payload}
+        
+        case 'save_place':
+            return { ...state, }
         
 
         default: 

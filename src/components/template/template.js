@@ -1,18 +1,20 @@
 import React from "react";
 import Logo from "../logo/logo";
 
+import { Link } from 'react-router-dom'
+ 
 
-import { Items } from "./styles";
+import { Items, LinkText } from "./styles";
 
 export const Template = (props) => {
   return (
     <React.Fragment>
       <Items>
         <li>
-          <Logo />
+          <Link to = "/"> <Logo /> </Link>
         </li>
         <li>
-          <h3>Tourist places saved</h3>
+          <Link to ="/saved"><LinkText>Tourist places saved</LinkText></Link>
         </li>
       </Items>
       {props.children}  

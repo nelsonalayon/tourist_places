@@ -14,3 +14,9 @@ width:100vw;
 background: rgba(0, 0, 0, .5);
 `
 
+export const LinkText = styled.h3`
+text-decoration:none;
+color:white;
+font-size: 30px;
+
+`

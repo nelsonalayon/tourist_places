@@ -1,6 +1,15 @@
-export const SavePlace = () => (dispatch) => {
+export const SavePlace = (n) => (dispatch, getState) => {
+
+    const {placesSaved}= getState().placeReducer  
+    
+    placesSaved.push(n)
+
+    const place_add = [
+        ...placesSaved
+    ]
+   
     dispatch({
         type: "bring_places",
-        payload: [1,2,3]
+        payload: place_add
     })
 }
